@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      " Coding journey."
+title:      " Coding Journey."
 date:       2019-01-23 13:05:36 -0500
 permalink:  coding_journey
 ---
