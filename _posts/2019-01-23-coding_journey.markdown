@@ -16,7 +16,7 @@ In my professional life for the past two years, I have been an executive directo
 The reason why I decided on a boot camp over the traditional C.S. 4yr degree is that from my research the boot-camp has much more to offer. Most graduates are better at solving problems as a team working with others, have more up to date knowledge in the tech world but most importantly students learned how to learn and were able to quickly learn new languages whatever environment they found themselves in the future. Essentially teaching a student how to learn!
 
 
-Programming languages are not just magic, but programmers have taught the program how to behave, how to “think”. To have the understanding that ruby methods just happen is a great miss representation of the truth. I have found that many self-taught people tend to overlook this point as they just learn that  it  works but not **how it works.**  I feel that Flatiron makes sure we truly understand what is under the hood and how higher level methods work etc. This not just teaching us how a method works but actually gives us major learning abilities and problem-solving skills.  
+Programming languages are not just magic, but programmers have taught the program how to behave, how to “think”. To have the understanding that ruby methods just happen is a great miss representation of the truth. I have found that many self-taught people tend to overlook this point as they just learn that  it  works but not **how it works.**  I feel that Flatiron makes sure we truly understand what is under the hood and how higher level methods work etc. This is  not just teaching us how a method works but actually gives us major learning abilities and problem-solving skills.  
 
 
 
