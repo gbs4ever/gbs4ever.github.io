@@ -20,8 +20,7 @@ Programming languages are not just magic, but programmers have taught the progra
 
 
 
-*
-Signing off!!*
+*Signing off!!*
 
 **Sim**
 
