@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      " '#Coding journey'."
-date:       2019-01-23 18:05:35 +0000
+title:      " Coding journey."
+date:       2019-01-23 13:05:36 -0500
 permalink:  coding_journey
 ---
 
