@@ -1,6 +1,6 @@
 # Site settings
 author: Sim Greenbaum
-title: How I got interested in coding 
+title: My  Coding  Journey
 header-img: img/home-bg.png
 email: gbs4ever2@gmail.com
 copyright_name: Sim Greenbaum
@@ -18,5 +18,3 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
-
-theme: jekyll-theme-merlot
