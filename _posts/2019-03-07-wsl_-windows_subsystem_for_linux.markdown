@@ -32,6 +32,6 @@ Signing off
 Links:
 1. [Micahshute wsl-setup](https://github.com/micahshute/wsl-setup)
 2. [Basic linux commands](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
-3. [Microsoft.](https://docs.microsoft.com/en-us/windows/wsl/install-win100)
+3. [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
  
 
