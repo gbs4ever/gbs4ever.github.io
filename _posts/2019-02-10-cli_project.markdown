@@ -8,7 +8,7 @@ permalink:  cli_project
 
 
 
-#  Remember success is never owned it is only rented and rent is due every day!!
+**Remember success is never owned it is only rented and rent is due every day!!**
  
 
 
