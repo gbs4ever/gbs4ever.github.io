@@ -14,7 +14,7 @@ But windows doesn't have bash or many of the  Linux based cmd, so I need to stay
 
 Well, Windows 10 has figured it out with  WSL -Windows Subsystem for Linux. I won't explain all the boring stuff but basically, it lets us install Ubuntu and use Linux based commands, programming language interpreters like Ruby and Python and a bunch of other cool stuff. We get the best of both worlds!!!
 
- We still need to understand how this works, basically, there is a connection or a *tunnel* from the MNT directory in Linux to the C:  drive in windows. But your Linux user name and programs are in the home directory of Linux.  There is one very important point to keep in mind is we want to use this setup only as a one-way street. We should only store our projects and files in our windows directory, **we use Linux to work or translate those files**(our gems and Linux codes would be saved in Linux home Dir)In newer builds of win 10 they did open it to a 2 way street, but that can get very confusing very fast.   
+ We still need to understand how this works, basically, there is a connection or a *tunnel* from the MNT directory in Linux to the C:  drive in windows. But your Linux user name and programs are in the home directory of Linux.  There is one very important point to keep in mind is we want to use this setup only as a one-way street. We should only store our projects and files in our windows directory, **we use Linux to work or translate those files**(our gems and Linux codes would be saved in Linux home Dir)In newer builds of win 10 they did open it to a 2 way street, but that can get very confusing very fast. **[Do not change any linux files  from your Win Dir ]**(https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)  
 
 So to recap we only use Linux to operate on our Windows files, therefore our text editor or most of the programs we should only install the windows version. If you [click here](https://github.com/micahshute/wsl-setup) it gives you step by step instructions on how to get it all set up and you can do your learn.co labs on a local environment. One last thing to keep in mind if you have more than one hard drive or a partitioned  hard drive as of now, **you can only use bash on your c: drive where your main OS lives.**
 
@@ -30,8 +30,8 @@ Signing off
 
 
 Links:
-1. [micahshute wsl-setup](https://github.com/micahshute/wsl-setup)
-2. [basic linux commands](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
-3. [microsoft.](https://docs.microsoft.com/en-us/windows/wsl/install-win100)
-
+1. [Micahshute wsl-setup](https://github.com/micahshute/wsl-setup)
+2. [Basic linux commands](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
+3. [Microsoft.](https://docs.microsoft.com/en-us/windows/wsl/install-win100)
+ 
 
