@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "WSL -Windows Subsystem for Linux"
-date:       2019-03-08 02:47:43 +0000
+date:       2019-03-07 21:47:44 -0500
 permalink:  wsl_-windows_subsystem_for_linux
 ---
 
