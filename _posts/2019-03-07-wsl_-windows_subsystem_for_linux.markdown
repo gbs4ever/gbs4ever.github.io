@@ -24,7 +24,7 @@ Well, In  Windows 10 has figured it out with  WSL -Windows Subsystem for Linux. 
  
  
  
- <a href="https://imgur.com/Qrt9iwU"><img src="https://i.imgur.com/Qrt9iwUm.png" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/Qrt9iwU"><img src="https://i.imgur.com/Qrt9iwUl.png" title="source: imgur.com" /></a>
  
  
  
