@@ -12,7 +12,7 @@ It seems that most programmers love the mac and refuse to look at a pc, which is
 But windows doesn't have bash or many of the  Linux based commands, so I need to stay on a mac which is Unix based.Well, we could try a dual-boot or a virtualbox on windows, I think just mentioning those  can make all of us go mad !! 
 
 
-<a href="https://imgur.com/JxW1PVn"><img src="https://i.imgur.com/JxW1PVnl.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/JxW1PVn"><img src="https://i.imgur.com/JxW1PVnh.png" title="source: imgur.com" /></a>
 
 
 
