@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Childrens-Books-Libray "
-date:       2019-03-18 04:13:17 +0000
+date:       2019-03-18 00:13:18 -0400
 permalink:  childrens-books-libray
 ---
 
@@ -16,7 +16,7 @@ What is MVC, Model - logic or the roadmap for our ruby classes   Views - front e
 Quick Reference guide to build our debug your app
 1. Gem file - always check the version of your app if the need to be changed 
 2. Config.ru - have you listed you main controller  as run ApplicationController also in order to Patch /Delete we need to       add this                 ``` use Rack::MethodOverride```
-3 Rake file ```  task :console do
+3. Rake file ```  task :console do
 Pry.start
 end```    use this for debugging by accessing  our DB and RUBY objects.
 
