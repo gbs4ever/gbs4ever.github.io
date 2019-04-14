@@ -55,7 +55,7 @@ gem 'devise'```
 ```rails db:migrate```
 ```rails g devise:views```
 
-Now that we have our user table running , we need to think which rails generter we going to use see [this](https://medium.com/@kevinyckim33/rails-generators-cli-cheatsheet-711295e7a1ed) will be helpfull . Keep in mind  to only run what you need we dont want our code base to have  extra files we dont need which can cause unwanted bugs and perfomance issues.
+Now that we have our user table running , we need to think which rails generator we going to use see [this](https://medium.com/@kevinyckim33/rails-generators-cli-cheatsheet-711295e7a1ed) will be helpfull . Keep in mind  to only run what you need we dont want our code base to have  extra files we dont need which can cause unwanted bugs and perfomance issues.
 
 
 Some other few improtant points when creating a rails app is to understand the control flow and how the user will interact with the app(what links to they need for the routes ). In addition don't be tempted to style the app in the begining as you may want to show it off, first build the** logic and  functionality **with the basic fetures then have fun.
@@ -65,7 +65,7 @@ Signing off,
 **Sim** 
 
 ****References:****
-* https://github.com/plataformatec/devise#the-devise-wiki
-* https://github.com/hothero/awesome-rails-gem
-* https://github.com/omniauth/omniauth
-* https://www.ruby-toolbox.com/
+https://github.com/plataformatec/devise#the-devise-wiki
+https://github.com/hothero/awesome-rails-gem
+https://github.com/omniauth/omniauth
+ https://www.ruby-toolbox.com/
