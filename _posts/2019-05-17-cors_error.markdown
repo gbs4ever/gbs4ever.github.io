@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CORS ERROR"
-date:       2019-05-17 18:09:07 +0000
+date:       2019-05-17 14:09:08 -0400
 permalink:  cors_error
 ---
 
@@ -35,4 +35,9 @@ How do we deal with this , we add CORS headers to our server [server side articl
  });```
 
 This sometimes helps but many times you need to read the documentation of the api how to deal with the  issue.
+
+
+**Signing off for now,**
+
+*Sim*
 
