@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning JavaScprit "
-date:       2019-04-30 20:45:39 +0000
+date:       2019-04-30 16:45:40 -0400
 permalink:  learning_javascprit
 ---
 
@@ -23,7 +23,7 @@ One of the reasons I chose to learn at Flatiron, is they teach two programing la
 * We use it server side (Node.js)
 * It has callback function which help keep responsibility defined and clear.
 * One of the things I love is being able to  pass in function as an argument.
-* Being able to run HTTP request without refreshing the page - Thank you Google maps
+* Being able to run HTTP request without refreshing the page or AJAX reguests- Thank you Google maps
 * The JS engine is much more forgiving to its master and is quick to throw and error 
 * The list goes on and on but  all and all it is complex but with a lot of flexibility. 
 
