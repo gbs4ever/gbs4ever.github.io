@@ -16,7 +16,7 @@ While adding JS to my project and working with API I came across a new type of e
 
   Meaning if your front end is on a different server then you backend the browser will block the call but why? This is probably one of the most common security features a good web browser has  to prevent someone from writing a script to access our backend or db without permission. So API calls using Fetch would run into this issue.
 
-How do we deal with this , we add CORS headers to our server [server side article ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control
+How do we deal with this , we add CORS headers to our server, see [server side article ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control
 )   like this 
 `Access-Control-Allow-Origin: http://example.com:8080 `   we  have  white listed one domain and port to  access the server from a different origin. If you don't have access to the server to make that change you can using a proxy service , and then you only fetch from the proxy . There are many ways to deal with it but the first solution is to understand the problem (or the need for it)
 
