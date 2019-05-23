@@ -5,6 +5,10 @@ date:       2019-03-07 21:47:44 -0500
 permalink:  wsl_-windows_subsystem_for_linux
 ---
 
+**Update ** = WSL2 will becoming out mid June 2019 and will change the way WSL works it will be a true linux kernel 
+we will see then how it works [see more](https://venturebeat.com/2019/05/06/microsoft-windows-terminal-wsl-2-coming-june/) **Update **
+
+
 
 It seems that most programmers love the mac and refuse to look at a pc, which is true, as mac comes preinstalled with a lot of stuff to set up a local environment.However, you might need to write some programs that are only windows based (.net framework) or your future client needs software for his business that only works on a pc.
 
