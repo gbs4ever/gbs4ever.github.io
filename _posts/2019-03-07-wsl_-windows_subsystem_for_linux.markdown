@@ -5,7 +5,7 @@ date:       2019-03-07 21:47:44 -0500
 permalink:  wsl_-windows_subsystem_for_linux
 ---
 
-**Update ** = WSL2 will becoming out mid June 2019 and will change the way WSL works it will be a true linux kernel 
+**Update **  WSL2 will becoming out mid June 2019 and will change the way WSL works it will be a true linux kernel 
 we will see then how it works [see more](https://venturebeat.com/2019/05/06/microsoft-windows-terminal-wsl-2-coming-june/) **Update **
 
 
