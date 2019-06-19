@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final project "
-date:       2019-06-19 22:13:04 +0000
+date:       2019-06-19 18:13:05 -0400
 permalink:  final_project
 ---
 
@@ -30,7 +30,7 @@ Use pgadmin to setup your DB then
 5.    Go to cors.rb uncomment  the file add `
    ` origins 'http://localhost:3000'`  we have whitelisted our front-end  server. Next    in application.rb add this ```config.middleware.use ActionDispatch::Cookies
      config.middleware.use ActionDispatch::Session::CookieStore, key:
-     '_cookie_name'`` .Last but not least add this to you application controller  ``include ::ActionController::Cookies``
+     '_cookie_name'`` .Last but not least add this to you application controller  `include ::ActionController::Cookies`
 		 
 	You back end is setup to be an api and also accept cookies now you just have to make sure you setup the front-end correctly .Good luck !
 	
