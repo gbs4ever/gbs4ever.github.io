@@ -32,8 +32,11 @@ Use pgadmin to setup your DB then
      config.middleware.use ActionDispatch::Session::CookieStore, key:
      '_cookie_name'`` .Last but not least add this to you application controller  `include ::ActionController::Cookies`
 		 
-	You back end is setup to be an api and also accept cookies now you just have to make sure you setup the front-end correctly .Good luck !
+	You back end is setup to be an api and also accept cookies now you just have to make sure
+	you setup the front-end correctly .Good luck !
 	
 	Signing off 
 	Sim 
+	
+	[React-Doc](https://github.com/facebook/create-react-app)
    
