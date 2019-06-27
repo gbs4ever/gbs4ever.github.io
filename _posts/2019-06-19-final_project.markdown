@@ -27,16 +27,24 @@ Use pgadmin to setup your DB then
  
 3.    then create you front-end      `npx create-react-app my-app` then `cd my-app` and then boot it `npm start`
 4.  If you are plaining to add user -login do that first there are many ways  to do i like using cookies and sessions. This can be very comlicated so make sure it works first before moving on.
-5.    Go to cors.rb uncomment  the file add `
-   ` origins 'http://localhost:3000'`  we have whitelisted our front-end  server. Next    in application.rb add this ```config.middleware.use ActionDispatch::Cookies
-     config.middleware.use ActionDispatch::Session::CookieStore, key:
-     '_cookie_name'`` .Last but not least add this to you application controller  `include ::ActionController::Cookies`
+5.    Go to cors.rb and uncomment  the file add  these words
+    `origins 'http://localhost:3000'`  we have just  whitelisted our front-end  server. Next  we need to go to the file  application.rb add this 
+		`config.middleware.use ActionDispatch::Cookies`
+    ` config.middleware.use ActionDispatch::Session::CookieStore, key:_cookie_name'` .
+		 Last but not leastyou need to  add this to you application controller   ``include ::ActionController::Cookies``
+
 		 
-	You back end is setup to be an api and also accept cookies now you just have to make sure
-	you setup the front-end correctly .Good luck !
 	
-	Signing off 
-	Sim 
-	
-	[React-Doc](https://github.com/facebook/create-react-app)
+Yay ! You back end is setup to be an api and also accept cookies now you just have to make sure
+you setup the front-end correctly .Good luck !
+
+Signing off 
+
+Sim
+
+
+[React-Doc](https://github.com/facebook/create-react-app)
+
+		 
+
    
