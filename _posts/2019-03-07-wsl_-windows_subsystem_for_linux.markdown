@@ -10,7 +10,7 @@ permalink:  wsl_-windows_subsystem_for_linux
 
 
 
-It seems that most programmers love the mac and refuse to look at a pc, which is true, as mac comes preinstalled with a lot of stuff to set up a local environment.However, you might need to write some programs that are only windows based (.net framework) or your future client needs software for his business that only works on a pc.
+It seems that most programmers love the Mac and refuse to look at a PC, which is true, as mac comes preinstalled with a lot of stuff to set up a local environment.However, you might need to write some programs that are only windows based (.net framework) or your future client needs software for his business that only works on a pc.
 
 **Now what?** 
 But windows doesn't have bash or many of the  Linux based commands, so I need to stay on a mac which is Unix based.Well, we could try a dual-boot or a virtualbox on windows, I think just mentioning those  can make all of us go mad !! 
@@ -35,7 +35,7 @@ So to recap we only use Linux to operate on our Windows files, therefore our tex
 
 
 
-Coding can be fun and frustrating at the same time ,sounds weird like either you like it or you hate it. Well welcome to be being a true developer, the frustration is our minds and brains trying to learn and retain a new concept and the fun comes from seeing how much we can do with programming. **To all future dev’s do not I repeat do not let the frustration kill that love and passion you have for coding !! As you move along hopefully there will be less frustration.**
+Coding can be fun and frustrating at the same time ,sounds weird like either you like it or you hate it. Well welcome to be being a true developer, the frustration is our minds trying to learn and retain a new concepts and the fun comes from seeing how much we can do with programming. **To all future dev’s ,do not I repeat do not let the frustration kill that love and passion you have for coding !! As you move along hopefully there will be less frustration.**
 
 
 Signing off
