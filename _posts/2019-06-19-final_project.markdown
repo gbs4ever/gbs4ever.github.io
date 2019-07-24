@@ -5,7 +5,7 @@ date:       2019-06-19 18:13:05 -0400
 permalink:  final_project
 ---
 
- I would start by trying to give as much advice as  I can for anyone else who will be going down this path of building a full front-end and back-end project.
+ The best place to start is by giving as much advice as  I can for anyone else who will be going down this path of building a full front-end and back-end project.
 
 First thing is to keep two different  windows of the code base open at all time but having them separated it is very easy to get lost in your code so some structure will help a lot. Next open 
   3 terminals  one for backend server  2nd for the front end server 3rd for a rails console.
@@ -26,16 +26,16 @@ Use pgadmin to setup your DB then
 `db:create  db:migrate`
  
 3.    then create you front-end      `npx create-react-app my-app` then `cd my-app` and then boot it `npm start`
-4.  If you are plaining to add user -login do that first there are many ways  to do i like using cookies and sessions. This can be very comlicated so make sure it works first before moving on.
-5.    Go to cors.rb and uncomment  the file add  these words
-    `origins 'http://localhost:3000'`  we have just  whitelisted our front-end  server. Next  we need to go to the file  application.rb add this 
+4.  If you are plaining to add user -login do that first, there are many ways it can be done , I like using cookies and sessions. This can become  very comlicated so make sure it works and bugs are taken care of first before moving on.
+5.    Go to cors.rb and uncomment  the file and add  these words
+    `origins 'http://localhost:3000'`  we have just  whitelisted our front-end  server. Next  we need to go to the file  application.rb  make sure to add this 
 		`config.middleware.use ActionDispatch::Cookies`
     ` config.middleware.use ActionDispatch::Session::CookieStore, key:_cookie_name'` .
 		 Last but not leastyou need to  add this to you application controller   ``include ::ActionController::Cookies``
 
 		 
 	
-Yay ! You back end is setup to be an api and also accept cookies now you just have to make sure
+Yay ! You back end is setup to be an api and also able to  accept cookies now you just have to make sure
 you setup the front-end correctly .Good luck !
 
 Signing off 
