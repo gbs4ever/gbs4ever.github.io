@@ -16,6 +16,7 @@ For starters once it has already hit you , **stop yes stop** , think back to 3 m
 Have  you had a bug that you can't figure out what your doing wrong or you can't get a test to pass?
 
 <a href="https://imgur.com/xmCkuRv"><img src="https://i.imgur.com/xmCkuRv.jpg" title="source: imgur.com" /></a>
+
 I use this control flow
 * Walk away from your desk and have a coffe . 
 * Walk around the block or in an office run up and down a flight of stairs. 
@@ -28,6 +29,7 @@ Coding can be fun and frustrating at the same time , welcome to be being a true 
 
 
 All the best,
+
 Sim
 
 
