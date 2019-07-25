@@ -7,9 +7,9 @@ permalink:  tips_to_stay_motivated_in_tech
 
 We as dev’s will all go thru some or all of the following reactions frustration ,going mad that you program broken ,Imposter syndrome and anxiety.
 
-These are perfectly normal and kind of expected almost to say if you didn't have at least one of these in your career  you are not truly learning . So I think the first step is to accept that it is perfectly normal and ok to  have these issues. If you deny that you have them or just a general  feeling like your not worth it any will destroy your coding ability and maybe if affect you as a person in general. Now that we've come to terms with the fact that these burn out are normal what do we do about it? 
+These are perfectly normal and kind of expected almost to say if you didn't have at least one of these in your career  you are not truly learning . So I think the first step is to accept that it is perfectly normal and ok to  have these issues. If you deny that you have them or just have a general  feeling like your not worth it will destroy your coding ability and maybe even affect you as a person. Now that we've come to terms with the fact that these burn out are normal what do we do about it? 
 
-For starters once it has already hit you , **stop yes stop** , think back to 3 months ago. What were you able to do or know? It is probably half of what you know now ,  see the positive  and how much you have accomplished in a short perion of time.In addition talk it over with friends you will hear how they dealt with it.
+For starters once it has already hit you , **stop yes stop** , think back to 3 months ago. What were you able to do or know? It is probably half of what you know now ,  see the positive  and how much you have accomplished in a short period of time.In addition talk it over with friends you will hear how they dealt with it.
 
 ### Long term stratiges
 
@@ -18,7 +18,7 @@ Have  you had a bug that you can't figure out what your doing wrong or you can't
 <a href="https://imgur.com/xmCkuRv"><img src="https://i.imgur.com/xmCkuRv.jpg" title="source: imgur.com" /></a>
 
 I use this control flow
-* Walk away from your desk and have a coffe . 
+* Walk away from your desk and have a coffee . 
 * Walk around the block or in an office run up and down a flight of stairs. 
 * Try again !
 * Still stuck ,ask a colleague don't be too bashful.
