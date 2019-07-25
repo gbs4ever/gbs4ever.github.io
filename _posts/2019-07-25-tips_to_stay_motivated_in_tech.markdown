@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tips to stay motivated in tech. "
-date:       2019-07-25 18:56:48 +0000
+date:       2019-07-25 14:56:49 -0400
 permalink:  tips_to_stay_motivated_in_tech
 ---
 
@@ -15,7 +15,7 @@ For starters once it has already hit you , **stop yes stop** , think back to 3 m
 
 Have  you had a bug that you can't figure out what your doing wrong or you can't get a test to pass?
 I use this control flow
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/jErtAwI"><a href="//imgur.com/a/jErtAwI"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<a href="https://imgur.com/xmCkuRv"><img src="https://i.imgur.com/xmCkuRv.jpg" title="source: imgur.com" /></a>
 
 * Walk away from your desk and have a coffe . 
 * Walk around the block or in an office run up and down a flight of stairs. 
