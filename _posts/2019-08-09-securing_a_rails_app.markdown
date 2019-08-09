@@ -18,7 +18,7 @@ In my app a user is asked to share a comment on a book. What if a user add this 
 
 `<script>alert('Hello');</script>`
 
-Not so bad but this is worse we are writing to the cookie
+Not so bad, but what about this ? we are writing to the cookie
 
 `<script>document.write(document.cookie);</script>`
 
