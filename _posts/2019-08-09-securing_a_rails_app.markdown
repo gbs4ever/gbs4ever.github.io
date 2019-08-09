@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Securing a Rails App"
-date:       2019-08-09 20:18:00 +0000
+date:       2019-08-09 16:18:01 -0400
 permalink:  securing_a_rails_app
 ---
 
@@ -53,7 +53,7 @@ calling` .text(...)` on it will assign the passed value as  text only,  it will 
 	
   ```@review = current_user.reviews.build(sanitized_review)```
 	
-     ```if  current_user.save```
+  ```if  current_user.save```
 
 Now let my validations kick in and it  wont save a blank reviews that don't have any  comments.So I have prevented it from even being saved to the db .I sure learnt a lot on this subject debugging it myself hope you will also.
 
