@@ -23,7 +23,7 @@ Not so bad, but what about this ? we are writing to the cookie
 `<script>document.write(document.cookie);</script>`
 
 
- Rails by default will prevent the script from running  on any of its view pages.Rails will  actually sanitize the output by default not the input into the DB,  meaning what it displayed to the page/client of   a rails only app will be fine.This is good but still leaves us with two problems.
+ Rails by default will prevent the script from running  on any of **its view pages**.Rails will  actually sanitize the output by default but not the input into the DB,  meaning what it displayed to the page/client of  a rails only app will be satisfactory. This is wonderful but still leaves us with two problems.
 
 1. Rails view will not execute the code but it still displays on the page,not looking so nice.
 2. My problem  was that on one page I was using ajax(JavaScript) to pull data from the DB and rails was  just rendering json, basically a mini api. From this angel  when JS picks up the data it was not sanitized and when it displayed the code  would fully execute .This was a great lesson for me  in finding the core of the issue pinpointing what is the source of the problem .
@@ -55,9 +55,9 @@ calling` .text(...)` on it will assign the passed value as  text only,  it will 
 	
   ```if  current_user.save```
 
-Now let my validations kick in and it  wont save a blank reviews that don't have any  comments.So I have prevented it from even being saved to the db .I sure learnt a lot on this subject debugging it myself hope you will also.
+With that I let my validations kick in which  wont save any blank reviews that don't have any  comments. So I have prevented it from even being saved to the db .I am sure I learnt a lot on this subject debugging it myself hope you will too.
 
-On a side note if you are running a **rails only MVC app** then by default the scripts wont run and to just  clean  up the output  all you need to do is add the word sanitize in your views  [like this](https://edgeapi.rubyonrails.org/classes/ActionView/Helpers/SanitizeHelper.html)
+On a side note if you are running a **rails only MVC app** then by default the scripts wont run and all you need to do is  just  clean  up the output.  All that is necessary is to add the word sanitize in your views  [like this](https://edgeapi.rubyonrails.org/classes/ActionView/Helpers/SanitizeHelper.html)
 
 ``<%= sanitize @comment.body %>``
 
