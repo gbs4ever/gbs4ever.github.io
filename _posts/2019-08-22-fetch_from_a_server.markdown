@@ -12,10 +12,10 @@ There is always a question among devs when the are building a new web app. Were 
 $(".review").on("click", function (event) {
   event.preventDefault()
    let id = $(this).data("id")
- fetch(`www.someurl.com/books/${id}.json`.then(res => res.json())
+   fetch(`www.someurl.com/books/${id}.json`).then(res => res.json())
      .then(data =>{console.log(data)}
-		 }```
-		 
+	}}
+)```
 		 
 When the user loads the page and creates the dom (and clicks the button) only then does the Js fire ; meaning whose computer just made that request the users. However if we were to be fetching that external api on the back-end even though the user triggered the server to fetch but whose computer actually fetched the data the server. 
 
