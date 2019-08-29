@@ -5,15 +5,15 @@ date:       2019-03-07 21:47:44 -0500
 permalink:  wsl_-windows_subsystem_for_linux
 ---
 
-**Update!!   WSL 2 has come out and it allows users to run WSL1 and WSL 2 at the same time.Lets see how
+**Update!!   WSL 2.0 has come out and it allows users to run WSL1 and WSL 2 at the same time.Lets see how
  it works [see more](https://docs.microsoft.com/en-us/windows/wsl/wsl2-about)** 
 
 
 
-It seems that most programmers love the Mac and refuse to look at a PC, which is true, as mac comes preinstalled with a lot of stuff to set up a local environment.However, you might need to write some programs that are only windows based (.net framework) or your future client needs software for his business that only works on a pc.
+It seems that most programmers love the Mac and refuse to look at a PC, which is true, as  a  Mac comes preinstalled with a lot of stuff to set up a local environment.However, you might need to write some programs that are only windows based (.net framework) or your future client needs software for his business that only works on a pc.
 
 **Now what?** 
-But windows doesn't have bash or many of the  Linux based commands, so I need to stay on a mac which is Unix based.Well, we could try a dual-boot or a virtualbox on windows, I think just mentioning those  can make all of us go mad !! 
+But Windows doesn't have bash or many of the  Linux based commands, so I need to stay on a mac which is Unix based.Well, we could try a dual-boot or a virtualbox on windows, I think just mentioning those  can make all of us go mad !! 
 
 Well, Microsoft in  Windows 10 has figured it out with  WSL -Windows Subsystem for Linux. I won't explain all the boring stuff but basically, it lets us install Ubuntu and use Linux based commands, programming language interpreters like Ruby and Python and a bunch of other cool stuff. We get the best of both worlds!!!
 
