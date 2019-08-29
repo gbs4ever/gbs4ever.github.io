@@ -6,7 +6,7 @@ permalink:  fetch_from_a_server
 ---
 
 
-There is a common question among developers when the are building a new web app. Where should we fetch our data from ? If we are calling an external API do we pull data on the backend or front-end.To explain it a little deeper imagine if this is our code.   
+There is a common question among developers when they are building a new web app and retrieving from an API how should we fetch? If we are calling an external API do we pull data on the backend or front-end. To explain it on a little deeper level.
 
 ```javascript
 $(".review").on("click", function (event) {
