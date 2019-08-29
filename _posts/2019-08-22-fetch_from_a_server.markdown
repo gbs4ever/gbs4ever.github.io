@@ -1,12 +1,12 @@
 ---
 layout: post
-title:      "Fetch from a Server"
+title:      "Fetching from a Server"
 date:       2019-08-22 18:57:57 -0400
 permalink:  fetch_from_a_server
 ---
 
 
-There is always a question among devs when the are building a new web app. Were should we fetch our data.If we are calling an external API do we pull data on the backend or front-end.To explain it a little deeper imagine if this is our code.   
+There is a common question among devolpers when the are building a new web app. Where should we fetch our data from ? If we are calling an external API do we pull data on the backend or front-end.To explain it a little deeper imagine if this is our code.   
 
 ```javascript
 $(".review").on("click", function (event) {
@@ -24,7 +24,7 @@ Now that we have explained the difference between the two, let's discuss some pr
 <a href="https://imgur.com/8UG2UDz"><img src="https://i.imgur.com/8UG2UDzl.png" title="source: imgur.com" /></a>
 
 
-## Top  reasons why you would fetch on the backend 
+## Top  reasons why you would want to fetch on the backend 
 1.  If this will be mobile app we want  the user experience to be great and with load times every second counts so there might be a lag .
 2. If you target a population that works in areas that have weak cell or internet signal , there device will be much slower at getting that data from the external api .
 3.  You may  want the data to be saved on the backend and it is easier to pass just the search query to the back -end .
