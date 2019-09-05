@@ -22,20 +22,34 @@ Remember to  embrace your errors it is you program helping you work it out,  it 
 
 1.  First create your rails back-end `rails new project-name-here --api --database=postgresql` 
 2.  We need to attach our rails app to postgres add this to  database.yml  
+
 ``database: your app``
+
 ``host:localhost ``
+
 ``user:`` 
+
 ``password:``
+
 Use pgadmin to setup your DB then  
-``db:create``  ``db:migrate``
+``db:create``
+
+``db:migrate``
  
 3.    Then create you front-end  type    `npx create-react-app my-app` then `cd my-app` and then boot it using `npm start`
 4.  If you are plaining to add user -login do that first, there are many ways it can be done , I like using cookies and sessions. This can become  very comlicated so make sure it works and all bugs(related to login) are taken care of first before moving on.
 5.    Go to cors.rb and uncomment  the file and add  these words
-    `origins 'http://localhost:3000'`  we have just  whitelisted our front-end  server. Next  we need to go to the file  application.rb  make sure to add this 
+    `origins 'http://localhost:3000'` 
+		
+		we have just  whitelisted our front-end  server. Next  we need to go to the file  application.rb  make sure to add this 
+		
 		```config.middleware.use ActionDispatch::Cookies```
-    ``` config.middleware.use ActionDispatch::Session::CookieStore, key:_cookie_name``` .
-		 Last but not least you need to  add this to you application controller   ```include ::ActionController::Cookies```
+    
+		``` config.middleware.use ActionDispatch::Session::CookieStore, key:_cookie_name``` .
+		
+		Last but not least you need to  add this to you application controller  
+		
+		```include ::ActionController::Cookies```
 
 		 
 	
