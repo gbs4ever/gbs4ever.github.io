@@ -24,21 +24,7 @@ All we need to do is  just add this abstracted line to the user model
 
 which is really doing this!
 
-```rubyrequire 'bcryp'
-class User < ActiveRecord::Base
-#   users.password_hash in the database is a :string
-  include BCrypt
-
-  def password
-    @password ||= Password.new(password_hash)
-  end
-
-  def password=(new_password)
-    @password = Password.create(new_password)
-    self.password_hash = @password
-  end
-end```
-
+<a href="https://imgur.com/Vuve83e"><img src="https://i.imgur.com/Vuve83em.png" title="source: imgur.com" /></a>
 
 
 Why do we need to salt , what is the gain ?
