@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Web- Secutiry"
+title:      "Web- Security"
 date:       2019-09-05 15:17:14 -0400
 permalink:  web-_secutiry
 ---
@@ -15,9 +15,33 @@ In other words, it creates a hash  [check it out here](https://www.movable-type.
 
 ``hash(salt + p)    #=> <really unique hash>``
 
- This makes the process irreversible and an attacker cant get our password for the DB. So then how are we able log in and be authenticated?
+ This makes the process irreversible and an attacker cant get our password from the DB. So then how are we able log in and be authenticated?
 
-In rails, we store the salt or kind of a key for the user inside the table, when a user logins in we retrieve the salt and we encrypt the entered password (and the salt) and see if it matches the stored password.
+In rails , we store the salt or kind of a key for the user inside the table, when a user logins in we retrieve the salt and we encrypt the entered password (and the salt) and see if it matches the stored password.
+
+All we need to do is  just add this abstracted line to the user model
+``has_secure_password`` 
+
+which is really doing this!
+
+```ruby
+require 'bcryp'
+
+class User < ActiveRecord::Base
+#   users.password_hash in the database is a :string
+  include BCrypt
+
+  def password
+    @password ||= Password.new(password_hash)
+  end
+
+  def password=(new_password)
+    @password = Password.create(new_password)
+    self.password_hash = @password
+  end
+end```
+
+
 
 Why do we need to salt , what is the gain ?
 
