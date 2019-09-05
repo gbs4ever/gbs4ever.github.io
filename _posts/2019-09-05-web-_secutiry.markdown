@@ -24,9 +24,7 @@ All we need to do is  just add this abstracted line to the user model
 
 which is really doing this!
 
-```ruby
-require 'bcryp'
-
+```rubyrequire 'bcryp'
 class User < ActiveRecord::Base
 #   users.password_hash in the database is a :string
   include BCrypt
