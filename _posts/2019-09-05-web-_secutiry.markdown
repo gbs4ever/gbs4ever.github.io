@@ -2,7 +2,7 @@
 layout: post
 title:      "Web-Security"
 date:       2019-09-05 15:17:14 -0400
-permalink:  web-_secutiry
+permalink: Web-Security
 ---
 
 
