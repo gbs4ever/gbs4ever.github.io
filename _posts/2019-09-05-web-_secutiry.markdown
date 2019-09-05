@@ -23,9 +23,9 @@ All we need to do is  just add this abstracted line to the user model
 ``has_secure_password`` 
 
 which is really doing this!
+https://carbon.now.sh/4P2cGmBTpxEaVLD8KNUL
 
-<a href="https://imgur.com/Vuve83e"><img src="https://i.imgur.com/Vuve83em.png" title="source: imgur.com" /></a>
-
+<a href="https://imgur.com/Vuve83e"><img src="https://i.imgur.com/Vuve83el.png" title="source: imgur.com" /></a>
 
 Why do we need to salt , what is the gain ?
 
