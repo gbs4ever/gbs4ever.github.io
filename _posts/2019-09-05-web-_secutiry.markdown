@@ -11,23 +11,23 @@ We are always reading in the new about security breach by some group of hackers 
 ## Password encryption 
 > Bcrypt is a password hashing function designed by Niels Provos and David Mazières, based on the Blowfish cipher, and presented at USENIX in 1999.[1] Besides incorporating a salt to protect against rainbow table attacks, bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.(https://www.wikipedia.org/)
  
-In other words, it creates a hash  [check it out here](https://www.movable-type.co.uk/scripts/sha256.html) made up of your password and adding salt or some random characters using the SHA-256 algorithm.
+In other words, it creates a hash  [check it out here](https://www.movable-type.co.uk/scripts/sha256.html) made up of your password and adding a salt or some random characters using the SHA-256 algorithm.
 
-``hash(salt + p)    #=> <really unique hash>``
+``hash(salt + password)    #=> <really unique hash>``
 
- This makes the process irreversible and an attacker cant get our password from the DB. So then how are we able log in and be authenticated?
+   This makes the process irreversible and an attacker cant get our password from the DB. So then how are we able to login and be authenticated?
 
 In rails , we store the salt or kind of a key for the user inside the table, when a user logins in we retrieve the salt and we encrypt the entered password (and the salt) and see if it matches the stored password.
 
-All we need to do is  just add this abstracted line to the user model
+All we need to do is  just add this abstracted line to the user model.
 ``has_secure_password`` 
 
 which is really doing this!
-https://carbon.now.sh/4P2cGmBTpxEaVLD8KNUL
+
 
 <a href="https://imgur.com/Vuve83e"><img src="https://i.imgur.com/Vuve83el.png" title="source: imgur.com" /></a>
 
-Why do we need to salt , what is the gain ?
+Why do we need to salt , what are we gaining ?
 
 An attacker could really just create a database using the same algorithm of hashes running all possible passwords. Then just try to get a match against our database. So we add salt which is 4 random characters that are unknown to the attacker. We store this in the user column and the end of the hash to retrieve.
 
