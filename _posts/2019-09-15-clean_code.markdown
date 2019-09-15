@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Clean Code"
-date:       2019-09-15 04:29:37 +0000
+date:       2019-09-15 00:29:38 -0400
 permalink:  clean_code
 ---
 
