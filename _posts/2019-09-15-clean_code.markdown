@@ -23,12 +23,15 @@ If we have this outlook and spend the time to think things over it will save us 
 
 
 ## How to build Clean code 
-1. Naming variables - You should be as expressive as possible, your code should read like a book that any other developer would understand. What is the code trying to accomplish? Comments are great to help you come back to your code and understand it but if you need to use comments to often time to rethink.
+1. Naming variables - You should be as expressive as possible, your code should read like a book that any other developer would understand(which might be you 2 weeks later). What is the code trying to accomplish? Comments are great to help you come back to your code and understand it but if you need to use comments to often time to rethink your variables.
 2. One action -You should try to limit your methods to one action. They are easier to write, easier to read, easier to debug and easier to test. We should have one method that will call the other two methods.      <a href="https://imgur.com/wj3OZQO"><img src="https://i.imgur.com/wj3OZQOm.png" title="source: imgur.com" /></a>
 3. You might hear about how singletons are great but they are highly prone to bugs, we build methods that should be predictable based on the input the output would be. [Click here ](https://cocoacasts.com/are-singletons-bad) to find out more.
 4. [DRY](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w) -don't repeat yourself, extract code and call that method the rule of thumb don't repeat yourself 3 times. 
-5. Lint checker - we need to keep to the styles of the language, we cant have laws without enforcement. There are many bots you can run to check these things.
-6. Testing you must test your code !! The best way is to build tests (like [TDD](http://agiledata.org/essays/tdd.html)) which can be automated that validate our code or at the very least you must manually test the code. The truth is doing both gives you more coverage.
+5. Lint checker - we need to keep to the styles of the language, we cant have laws without enforcement. There are many bots you can run to check as you submit a commit.
+6. Testing you must test your code !! The best way is to build tests (like [TDD](http://agiledata.org/essays/tdd.html)) which can be automated that validate our code or at the very least you must manually test the code. The truth is doing both gives you much more coverage.
+7. Continuous build- even if you are running a test against the new feature but how does it react with the current version of the full project? There are many different options you can test the whole repo which in a big environment might take a long time or we can just test the dependences. For instance, a few of my projects when I commit to Netlify it rebuilds the new commit ensuring that the code which was added can build correctly in a production environment.
+
+
 
 Signing off
 
