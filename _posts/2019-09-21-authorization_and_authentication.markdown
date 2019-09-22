@@ -13,7 +13,7 @@ To give an example, imagine you go to you a conf . You come with your ticket and
 
  There are two main processes we can use Sessions/cookies or [JWT](https://jwt.io/) (aka Tokens)
  
-**With the typical flow of a  session/cookie system**
+## With the typical flow of a  session/cookie system
 
 1. The user logins entering username password (front-end) 
 2. The server verifies the data is correct (query db 1) and creates a session stored in the DB
@@ -24,9 +24,10 @@ To give an example, imagine you go to you a conf . You come with your ticket and
 <a href="https://imgur.com/YaxweYp"><img src="https://i.imgur.com/YaxweYpl.png" title="source: imgur.com" /></a>
 
 
-**Token based flow **
+## Token based flow 
 
-Token-based  auth is becoming very popular due to the way we design apps as single page-apps. The most common is JWT one big difference is JWT is stateless the DB does not save any session but the token is returned to the client to make use and added to every HTTP request header and the server just confirms it is a correct token. 
+
+Token-based  auth is becoming very popular due to the way apps are designed as single page-apps. The most common is JWT one big difference is JWT is stateless the DB does not save any session but the token is returned to the client to make use and added to every HTTP request header and the server just confirms it is a correct token. 
 
 
 
