@@ -5,7 +5,7 @@ date:       2019-09-21 22:39:59 -0400
 permalink:  authorization_and_authentication
 ---
 
-What is authorization and authentication, why is it important and some ways they can be hacked?
+What is authorization and authentication, why is it so important and what are some ways it can be hacked?
 Authentication is confirming you are who you claim to be, this is the typical login process. Where we match your  input username and password against the DB if  is correct
 Authorization is when we know who you, but what rights or access do you have to this system are you an admin with full access pass or maybe you only have read rights. 
 
