@@ -40,7 +40,7 @@ Token-based  auth is becoming very popular due to the way apps are designed as s
 
 <a href="https://imgur.com/AM6CQzB"><img src="https://i.imgur.com/AM6CQzBl.png" title="source: imgur.com" /></a>
 
-This is the basic difference between the way we log on, stay tuned to next weeks post where we will talk about the pros and cons of each one. 
+These are the basic differences between the way we log on, stay tuned to next week's post where we will talk about the pros and cons of each one. 
 
 Signing off
 
