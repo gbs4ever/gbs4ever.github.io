@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Authorization and Authentication "
+title:      "Authorization and Authentication  part 1"
 date:       2019-09-21 22:39:59 -0400
 permalink:  authorization_and_authentication
 ---
