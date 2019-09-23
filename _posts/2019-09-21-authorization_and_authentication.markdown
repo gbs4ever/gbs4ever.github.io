@@ -16,10 +16,10 @@ To give an example, imagine you go to you a conf . You come with your ticket and
 ## With the typical flow of a  session/cookie system
 
 1. The user logins entering username password (front-end) 
-2. The server verifies the data is correct (query db 1) and creates a session stored in the DB
+2. The server verifies the data is correct  and creates a session stored in the DB
 3. A cookie with the session id is sent to the front-end and stored in the  place in the browser
 4. Each HTTP request we will match the session-id against the DB
-5.logout destroy the session on the server 
+5. logout destroy the session on the server 
 
 <a href="https://imgur.com/YaxweYp"><img src="https://i.imgur.com/YaxweYpl.png" title="source: imgur.com" /></a>
 
