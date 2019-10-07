@@ -45,7 +45,7 @@ On load, this will send the user to a different URL which will download the file
 
 
 
-## Cross-site request forgery
+## Cross-site Request Forgery
 **Stay tuned-coming  next week**
 
 
