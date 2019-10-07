@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Basic Security "
-date:       2019-10-07 00:20:16 +0000
+date:       2019-10-06 20:20:17 -0400
 permalink:  basic_security
 ---
 
@@ -48,6 +48,10 @@ Simcha Greenbaum
 
 
 References
+
+1. [SQl Injection](https://www.beyondsecurity.com/about-sql-injection.html)
+2. [CSRF](https://medium.com/rubyinside/a-deep-dive-into-csrf-protection-in-rails-19fa0a42c0ef)
+3. 
 
 
 
