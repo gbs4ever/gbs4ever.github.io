@@ -25,7 +25,7 @@ Because now we are saying  give me a user whose name is  blank  or if 1=1 (which
 
 ```User.where(["name = ?", "#{params[:name]}"])```
 
-We don't pass in a string directly but use “?“ as template or placeholder for the parameters.In this example we are clearly stating how to make the query! This is just one example if we are even just aware of the vulnerabilities that will help us in finding the correct solution.
+We don't pass in a string directly but use “?“ as template or placeholder for the parameters.In this example we are clearly stating how to make the query! This is just one example if we are even just aware of the vulnerabilities,that will help us in finding the correct solution.
 
 
 
@@ -34,10 +34,10 @@ We don't pass in a string directly but use “?“ as template or placeholder fo
 
 
 ## Cross-Site Scripting (XSS)
-Stay-tuned coming soon
+**Stay-tuned coming soon**
 
 ## Cross-site request forgery
-stay tuned-coming soon
+**stay tuned-coming soon**
 
 
 
