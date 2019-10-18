@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Junior Developer"
-date:       2019-10-18 21:09:15 +0000
+date:       2019-10-18 17:09:16 -0400
 permalink:  junior_developer
 ---
 
@@ -24,7 +24,7 @@ Top tips to succeed as a  Junior Developer,
 6. Dont just copy and paste code , know what your code should be doing.
 7. Find a friend/mentor to help you grow.
 8. If a senior Dev is telling you something that you know your right, dont be push-over stay firm but  be respectful
-    there is a chance you might only** think your right but are wrong**.
+    there is a chance you might only **think your right but are wrong**.
 9. Don’t let anyone ever make you feel your  worth less because you don’t know XYZ 
 
 
