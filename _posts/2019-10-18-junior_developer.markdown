@@ -23,9 +23,10 @@ Top tips to succeed as a  Junior Developer,
 5. What areas can your skills use improvement.
 6. Dont just copy and paste code , know what your code should be doing.
 7. Find a friend/mentor to help you grow.
-8. If a senior Dev is telling you something that you know your right, dont be push-over stay firm but  be respectful
-    there is a chance you might only **think your right but are wrong**.
-9. Don’t let anyone ever make you feel your  worth less because you don’t know XYZ 
+8. If a senior Dev is telling you something that you know your right, don't be push-over stay firm but  be respectful
+    there is a chance you might only **think your right but are very wrong**.
+9. Read Docs not just Stack overflow, you will learn alot more that way.
+10. Don’t let anyone ever make you feel your  worth less because you don’t know XYZ 
 
 
 
