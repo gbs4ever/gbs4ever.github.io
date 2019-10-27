@@ -8,7 +8,7 @@ permalink:  junior_developer
 
 I will change from my normal technical blog style and give some tips that apply to all levels of devs.
 
-Recently I was hired to build a few projects where the technology and requirements where out of my comfort zone my initial reaction was to turn it down let the more experienced developers who are “better” at it. I spoke it over with a good [friend](https://twitter.com/yechielk)/mentor and he showed me that I can build much more if I would believe in myself. All these  “thoughts” are just imposter syndrome sinking in and destroying you. Yes, you are a Junior Developer and should always listen to what the experienced devs have to say because they actually do know more.** However that doesn’t mean you don’t know how to do it,** you might have to read the docs a little more but stop** you do have mad skills!** .
+Recently I was hired to build a few projects where the technology and requirements where out of my comfort zone my initial reaction was to turn it down let the more experienced developers who are “better” at it. I spoke it over with a good [friend](https://twitter.com/yechielk)/mentor and he showed me that I can build much more if I would believe in myself. All these  “thoughts” are just imposter syndrome sinking in and destroying you. Yes, you are a Junior Developer and should always listen to what the experienced devs have to say because they actually do know more. **However that doesn’t mean you don’t know how to do it,** you might have to read the docs a little more but stop **you do have mad skills!** .
 
 
 <a href="https://imgur.com/lAqRK9j"><img src="https://i.imgur.com/lAqRK9j.jpg" title="source: imgur.com" /></a>
