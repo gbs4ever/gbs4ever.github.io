@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning Pyhton"
-date:       2019-10-25 02:48:55 +0000
+date:       2019-10-24 22:48:56 -0400
 permalink:  learning_pyhton
 ---
 
@@ -16,7 +16,8 @@ Yes, but code which more readable,  will help other developers read it quicker a
 <a href="https://imgur.com/NgCONLY"><img src="https://i.imgur.com/NgCONLYl.png" title="source: imgur.com" /></a>
 
 
-You might have heard the term “high-level language “ this doesn’t mean it is stronger or better but rather the distance to the bit and bytes or 1 and 0. Java and C are very low-level languages they are much closer to machine language but C# and python are farther away or easer for humans.
+You might have heard the term “high-level language “ this doesn’t mean it is stronger or better but rather the distance to the bit and bytes or 1 and 0. Assembly and C are very low-level languages they are much closer to machine language  but  Java,C# or Python are farther away or easer for humans. The basic rule of thumb, the closer you are to the machine the better performance you will get but you will need to tell the computer clearly and exactly what to do. However “higher-level” language read more like English but will be a little slower on performance. 
+
 The last point I would add why python is great, is its extensive libraries and large online community. When you are building an app, encryption key or game DON'T  reinvent the wheel use the resources that are available to you.
 
 
