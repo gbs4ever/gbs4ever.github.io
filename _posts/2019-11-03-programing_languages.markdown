@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Programing  languages"
-date:       2019-11-03 21:39:06 +0000
+date:       2019-11-03 16:39:07 -0500
 permalink:  programing_languages
 ---
 
 
-Learning any programming language is not just about the syntax but more about what is really going on under the hood. pass by value,   pass by reference, mutable  or immutable. Why is this so important ? 
+Learning any programming language is not just about the syntax but more about what is really going on under the hood. **pass by value,   pass by reference, mutable  or immutable**. Why is this so important ? 
 
-You might say why I can write and read the code,if you don’t understand what is really going you will be very confused by many bugs and  will have trouble even finding them. 
+You might say why, I can write and read the code? If you don’t understand what is really going on you will be very confused by manyof the bugs and will even have trouble finding them. 
 
 * Mutable - the value can be changed 
 * Immutable - the value cant be changed 
