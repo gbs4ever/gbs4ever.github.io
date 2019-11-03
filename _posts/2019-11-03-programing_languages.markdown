@@ -35,7 +35,7 @@ which means strings cant to be changed. We would need to slice and copy what we 
 
 ## Pass by value/ Pass by reference
 
-In python a varibale that has an imutable (cant be changed) the value is actulayy saved inside  the variable and if we copy one variblie to another the original varibale will be on touched and the addition will only affect the new varible.
+In python a varibale that has an imutable (cant be changed) the value is actulay saved inside  the variable and if we copy one variblie to another the original varibale will be on touched and the addition will only affect the new varible.
 
 For exapmle
 
@@ -52,11 +52,11 @@ But if we check the old variable,
 ``` newStirng  >>> 'helloworld'```
 
 
-However, a List in python which is mutable the variable is just a reference to a place in memory that holds that data so saving to a new variable has just created a new reference to that data. Think of it like this in Windows sometimes we create an icon on our desktop, a  shortcut to a file path for quick access. If we would make a copy of it we are just making a copy of the shortcut not the file. The same thing in python with mutable data variables are only a reference or a shortcut to that data. The reason for this is a list can hold thousands of pieces of data and we might be changing only one of them with index lookup
+However, a List in python which is mutable the variable is just a reference to a place in memory that holds that data so saving it to a new variable has just created a new reference to that data. Think of it like this, in Windows sometimes we create an icon on our desktop, a  shortcut to a file path for quick access. If we would make a copy of the icon we are just making a copy of the shortcut not the file. The same thing in python with mutable data variables are only a reference or a shortcut to that data. The reason for this is a list can hold thousands of pieces of data and we might be changing only one of them with index lookup
 
 ```myList[35] = “change me”```
 
-Instead of loading the whole list everytime we call the variable, there is just a reference that will only look at that index  speeding up the execution. These concepts are not just a simple syntax but trulyunderstanding the mechanics behind a language, to be a true good developer make sure you understand these concepts well.
+Instead of loading the whole list everytime we call the variable, there is just a reference that will only look at that index  speeding up the execution. These concepts are not just a simple syntax but to trulyunderstandthe mechanics behind a language. If you want to be a true good developer make sure you understand these concepts well.
 
 
 
