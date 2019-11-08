@@ -30,7 +30,7 @@ That is a little complicated but in simple terms, it can't access anything outsi
 <img src="https://docs.docker.com/images/Container%402x.png" alt="Container stack example" 
 style="width:300px; padding-left: 50px;" >
 
-
+<p></p>
 
 
 ## How to get started 
