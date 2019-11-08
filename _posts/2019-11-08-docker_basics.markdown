@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Docker Basics "
-date:       2019-11-08 19:51:12 +0000
+date:       2019-11-08 14:51:12 -0500
 permalink:  docker_basics
 ---
 
@@ -25,6 +25,8 @@ That is a little complicated but in simple terms, it can't access anything outsi
 
 
 <img src="https://docs.docker.com/images/VM%402x.png" alt="Virtual machine stack example" width="300px">
+<p></p>
+
 <img src="https://docs.docker.com/images/Container%402x.png" alt="Container stack example" width="300px">
 
 
