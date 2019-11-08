@@ -24,10 +24,10 @@ That is a little complicated but in simple terms, it can't access anything outsi
 
 
 
-<img src="https://docs.docker.com/images/VM%402x.png" alt="Virtual machine stack example" width="300px">
-<p></p>
+<img src="https://docs.docker.com/images/VM%402x.png" alt="Virtual machine stack example" width="150px">
 
-<img src="https://docs.docker.com/images/Container%402x.png" alt="Container stack example" width="300px">
+
+<img src="https://docs.docker.com/images/Container%402x.png" alt="Container stack example" width="150px">
 
 
 
