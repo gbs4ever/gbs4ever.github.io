@@ -38,10 +38,11 @@ which means strings cant to be changed. We would need to slice and copy what we 
 In python a variable that has an immutable (cant be changed) the value is actually saved inside  the variable and if we copy one variable to another the original variable will be untouched and the addition will only affect the new variable.
 
 For example
+```newString  ='helloworld'```
 
-```addString = newStirng```
+```addString =newString ```
 
-```addString + " simcha "```
+```addString += " simcha "```
 
 This will return
 
@@ -49,7 +50,7 @@ This will return
 
 But if we check the old variable, 
 
-``` newStirng  >>> 'helloworld'```
+``` newString   >>> 'helloworld'```
 
 
 However, a List in Python which is mutable, the variable is just a reference to a place in memory that holds that data so saving it to a new variable has just created a new reference to that data. Think of it like this, in Windows sometimes we create an icon on our desktop, a  shortcut to a file path for quick access. If we would make a copy of the icon we are just making a copy of the shortcut not the file. The same thing in python with mutable data variables are only a reference or a shortcut to that data. The reason for this is a list can hold thousands of pieces of data and we might be changing only one of them with index lookup
