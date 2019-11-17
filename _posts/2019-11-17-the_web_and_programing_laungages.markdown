@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Web and programing laungages "
-date:       2019-11-17 21:01:40 +0000
+date:       2019-11-17 16:01:41 -0500
 permalink:  the_web_and_programing_laungages
 ---
 
