@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "The Web and programming languages "
+title:      "The Web and Programming Languages "
 date:       2019-11-17 16:01:41 -0500
 permalink:  the_web_and_programing_laungages
 ---
