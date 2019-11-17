@@ -1,9 +1,10 @@
 ---
 layout: post
-title:      "The Web and programing laungages "
+title:      "The Web and programming languages "
 date:       2019-11-17 16:01:41 -0500
 permalink:  the_web_and_programing_laungages
 ---
+
 
 
 The web has become so ingrained in us that we take it for granted but every once in a while we need to take a step back and see how it really works.The basic flow is the (client) your computer makes a request to the server. The server then processes the request and sends back a response. 
