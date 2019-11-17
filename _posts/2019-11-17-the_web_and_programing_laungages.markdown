@@ -2,7 +2,7 @@
 layout: post
 title:      "The Web and programming languages "
 date:       2019-11-17 16:01:41 -0500
-permalink:   the_web_and_programming_languages
+permalink:  the_web_and_programing_laungages
 ---
 
 
@@ -12,13 +12,13 @@ The web has become so ingrained in us that we take it for granted but every once
 <a href="https://imgur.com/XTrE74B"><img src="https://i.imgur.com/XTrE74B.png" title="source: imgur.com" /></a>
 
 
-We need   to take a step back and understand the server can do many things.
+We need to take a step back and understand the server can do many things.
 1. It listens to  HTTP requests or better known as a web server
-2. Bussniess logic
-3. Acsses the DB 
+2. Business logic
+3. Access the DB
 4. Input validation for form input.
 5. Authentication and Authorizations
-6. Return HTTP response 
+6. Returns a  HTTP response
 
 
 
