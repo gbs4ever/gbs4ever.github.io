@@ -2,7 +2,7 @@
 layout: post
 title:      "The Web and programming languages "
 date:       2019-11-17 16:01:41 -0500
-permalink:  the_web_and_programing_laungages
+permalink: The Web and programming languages 
 ---
 
 
