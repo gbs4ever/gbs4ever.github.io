@@ -25,7 +25,7 @@ We need to take a step back and understand the server can do many things.
 However, depending on the language you choose will decide how the server is setup. In Ruby Rack process just the Http request and we write our Ruby code to do the rest(no pun intended)  Talk to the DB, validate the user input, etc. It makes starting a web application very easy as there is no requirement to build out the webserver the same thing is with PHP  you use Apache. However, in Node.js we will actually add functionality to the web server and use Js to build it. Why is the important to know ? In any application the more you can understand what is going on the better you will be at dealing with errors and optimizing run time.
 
 This is a basic server code in js that we need to write ,
-```
+```js
 const http = require('http')
 
 //will run this function for every incoming request
