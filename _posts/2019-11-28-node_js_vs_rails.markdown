@@ -13,11 +13,13 @@ Why is node.js so popular as a back-end server and what is so bad about Rails?  
 For example, imagine that at step 2 we are querying the Database or an API call and step 1.5 is another user trying to see our home page. The user won't have to wait for the DB or the API  to return to see our home page ,that  makes a much better user experience. 
 
 ```javascript 
+
 console.log('step 1')
 setTimeout(function () {
   console.log('step 2')
 }, 1)
-console.log('step 1.5?')```
+console.log('step 1.5?')
+```
 
 
 With this architecture, we have the ability to build a bigger and better system. In addition, Node.js is lightweight and more efficient. Scalability and server costs are the companies’ number one priority. If the site will be slow it makes less money, if the hosting server CPU costs are high their profit margin will be smaller. Being a developer is not just about being able to write or even debug code. You need to understand things on a deeper level as this will help you decide what technologies are a good fit for each project.
