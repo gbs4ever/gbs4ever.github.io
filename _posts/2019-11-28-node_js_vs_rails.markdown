@@ -13,7 +13,6 @@ Why is node.js so popular as a back-end server and what is so bad about Rails?  
 For example, imagine that at step 2 we are querying the Database or an API call and step 1.5 is another user trying to see our home page. The user won't have to wait for the DB or the API  to return to see our home page ,that  makes a much better user experience. 
 
 ```javascript 
-
 console.log('step 1')
 setTimeout(function () {
   console.log('step 2')
