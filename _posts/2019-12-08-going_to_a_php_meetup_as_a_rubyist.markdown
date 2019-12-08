@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Going to a PHP meetup as a Rubyist."
-date:       2019-12-08 21:48:26 +0000
+date:       2019-12-08 16:48:27 -0500
 permalink:  going_to_a_php_meetup_as_a_rubyist
 ---
 
@@ -15,7 +15,7 @@ Well, meetups are a great place for networking and meeting people (some good foo
 
 So I went in all scared and petrified that I don’t know the first thing about PHP. In the end, the meetup was about React and Gatsby to frameworks I have used many times. I asked a question about XSS scripting which turned into a whole group discussion which to say the very least the whole room enjoyed the interaction and the professionalism I brought to the table.
 
-To summarize don’t try to jump from language to lounge but got to meet up even if it is not in your stack you never know what and how you can learn. Thanks to some great dev's who pushed me to go and leave my comfort zone  -- you know who you are.
+To summarize don’t just try to jump from language to language but you need to go to meet-up's even if it is not in your stack you never know what and how you can learn. Thanks to some great dev's who pushed me to go and leave my comfort zone  -- you know who you are.
 
 
 
