@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What is Gatsby.js ? "
-date:       2019-12-13 18:02:54 +0000
+date:       2019-12-13 13:02:55 -0500
 permalink:  what_is_gatsby_js
 ---
 
@@ -10,7 +10,7 @@ Gatsby is based on React.js so if you have built any front-end site you will lov
 
 As a developer, we have seen so many new frameworks that are supposed to make your life easier but one of two things happen, either it makes it harder or their docs are horrible. You spend way to much time figuring out-there design than building what your really wanted. Gatsby has great docs and many different plugins setup will be so much easier.
 
-Now let’s get talk about the most important point it extremely fast as it builds the page from all dynamic data and static data to a static website. For example, my [portfolio](http://www.simchagreenbaum.dev)page is pulling data from GitHub and displaying it to the page. Gatsby is taking that data and at build time creat it into a single HTML page with my static website. You can host the webpage even on servers that only will send back static pages as that is truly what you send to the client. From the user perspective, the browser just needs to load one page from one data point.
+Now let’s get talk about the most important point it extremely fast as it builds the page from all dynamic data and static data to a static website. For example, my [portfolio](http://www.simchagreenbaum.dev)  page is pulling data from GitHub and displaying it to the page. Gatsby is taking that data and at build time creat it into a single HTML page with my static website. You can host the webpage even on servers that only will send back static pages as that is truly what you send to the client. From the user perspective, the browser just needs to load one page from one data point.
 
 
 
@@ -33,6 +33,18 @@ As you can see my dev server ran the queries and built the  static page correctl
 All the best,
 
 Simcha Greenbaum
+
+
+
+
+
+Check these out 
+
+[Gatsby](http://www.gatsbyjs.org/)
+
+[Gatsby plugins](https://www.gatsbyjs.org/plugins/)
+
+[More info](https://www.mediacurrent.com/what-is-gatsby.js)
 
 
 
