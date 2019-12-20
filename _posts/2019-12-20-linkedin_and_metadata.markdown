@@ -17,7 +17,8 @@ So  [LinkedIn scrapes](https://www.linkedin.com/help/linkedin/answer/46687/makin
 
 <meta property='og:description' content="Description that will show in the preview"/>
 
-<meta property='og:url' content="//www.example.com/URL of the article" />```
+<meta property='og:url' content="//www.example.com/URL of the article" />
+```
 
 
 
