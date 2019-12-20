@@ -10,7 +10,7 @@ What if you want to post a link to an article on LinkedIn and  get a cool  previ
 LinkedIn [scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-your-website-shareable-on-linkedin?lang=en) all the metadata which is inside the Head tag of the HTML document, If you just have a plain HTML CSS JS site then you just add these lines of code 
 
 
-``` HTML
+``` Html
 <meta property='og:title' content="Title of the article"/>
 
 <meta property='og:image' content="//media.example.com/ 1234567.jpg"/>
@@ -24,7 +24,9 @@ LinkedIn [scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-yo
 
 LinkedIn uses the Open Graph protocol the one that is important so we get  a preview image for our posts is ,
 
-```<meta property='og:image' content="//media.example.com/ 1234567.jpg"/>```
+```Html 
+<meta property='og:image' content="//media.example.com/ 1234567.jpg"/>
+```
 
 
 
