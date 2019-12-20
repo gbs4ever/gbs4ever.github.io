@@ -5,9 +5,9 @@ date:       2019-12-20 13:54:06 -0500
 permalink:  linkedin_and_metadata
 ---
 
-What if you want to post a link to an article on LinkedIn and get a preview picture show up how does that work?
+What if you want to post a link to an article on LinkedIn and  get a cool  preview picture show up, how does that work?
 
-So  [LinkedIn scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-your-website-shareable-on-linkedin?lang=en) the metadata which is inside the head of the HTML page, If you just have a plain HTML CSS JS site then you just add these lines of code 
+LinkedIn [scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-your-website-shareable-on-linkedin?lang=en) all the metadata which is inside the Head tag of the HTML document, If you just have a plain HTML CSS JS site then you just add these lines of code 
 
 
 ``` HTML
@@ -22,14 +22,16 @@ So  [LinkedIn scrapes](https://www.linkedin.com/help/linkedin/answer/46687/makin
 
 
 
-LinkedIn uses the [Open Graph protocol](https://ogp.me/)  So the one we need  to get  a preview image for our posts is 
+LinkedIn uses the Open Graph protocol the one that is important so we get  a preview image for our posts is ,
 
 ```<meta property='og:image' content="//media.example.com/ 1234567.jpg"/>```
 
 
 
 
-Og stands for Open Graph which creates an object from the metadata tags.It can have many different attributes like title or image. If you are not sure what the metadata of site will display LinkedIn has a great tool to [inspect the output](https://www.linkedin.com/post-inspector/). So just type in the URL you want to check, it will scrape that website’s Metadata and display it for you to see.
+Og stands for Open Graph which creates an object from the metadata tags.It can have many different attributes like title or image check out the docs [here](https://ogp.me/) . If you are not sure what the metadata of site will display LinkedIn has a great tool to [inspect the output](https://www.linkedin.com/post-inspector/). So just type in the URL you want to check, it will scrape that website’s Metadata and display it for you to see.
+
+
 <a href="https://imgur.com/A1hqSQB"><img src="https://i.imgur.com/A1hqSQB.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/5xYtTor"><img src="https://i.imgur.com/5xYtTor.png" title="source: imgur.com" /></a>
 
