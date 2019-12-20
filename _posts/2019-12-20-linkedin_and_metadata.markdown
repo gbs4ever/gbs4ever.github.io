@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Linkedin and Metadata"
-date:       2019-12-20 18:54:04 +0000
+date:       2019-12-20 13:54:06 -0500
 permalink:  linkedin_and_metadata
 ---
 
