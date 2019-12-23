@@ -5,9 +5,9 @@ date:       2019-12-20 13:54:06 -0500
 permalink:  linkedin_and_metadata
 ---
 
-What if you want to post a link to an article on LinkedIn and  get a cool  preview picture show up, how does that work?
+Did you ever notice on Linkedin when you post a URL a cool preview picture shows up underneath? How does that work?
 
-LinkedIn [scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-your-website-shareable-on-linkedin?lang=en) all the metadata which is inside the Head tag of the HTML document, If you just have a plain HTML CSS JS site then you just add these lines of code 
+LinkedIn [scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-your-website-shareable-on-linkedin?lang=en) all the metadata which is located inside the Head tag of the HTML document, If you just have a plain HTML CSS JS site then all you need to do is just add these lines of code 
 
 
 ``` Html
@@ -22,7 +22,7 @@ LinkedIn [scrapes](https://www.linkedin.com/help/linkedin/answer/46687/making-yo
 
 
 
-LinkedIn uses the Open Graph protocol the one that is important so we get  a preview image for our posts is ,
+LinkedIn uses the Open Graph protocol, the code that  is important so we can get  a preview image for our posts is ,
 
 ```Html 
 <meta property='og:image' content="//media.example.com/ 1234567.jpg"/>
