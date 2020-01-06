@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Top topics every developer should understand well."
-date:       2020-01-06 03:43:31 +0000
+date:       2020-01-05 22:43:32 -0500
 permalink:  top_topics_every_developer_should_understand_well
 ---
 
