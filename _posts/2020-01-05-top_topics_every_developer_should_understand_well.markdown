@@ -23,8 +23,8 @@ The better you understand this, it will help you understand where and what a hac
 6. Is the credentials sent over HTTPS? made in the middle ?
 
 
+Stay tuned for more topics to come;  Is JS really the best programming language?Tech and Linkedin what are the benefits? Can your current background make you a better or worse developer?
 
-Stay tuned for more topics to come;  is JS really the best programming language?Tech and Linkedin what are the benfits?
 
 
 All the best,
