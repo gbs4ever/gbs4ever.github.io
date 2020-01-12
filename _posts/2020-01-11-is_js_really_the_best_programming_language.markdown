@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " Is JS really the best programming language"
-date:       2020-01-12 03:52:47 +0000
+date:       2020-01-11 22:52:48 -0500
 permalink:  is_js_really_the_best_programming_language
 ---
 
