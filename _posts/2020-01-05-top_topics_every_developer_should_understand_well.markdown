@@ -19,8 +19,8 @@ The better you understand this, it will help you understand where and what a hac
 2. Phishing.
 3. Stealing cookie.
 4. Trying default / easy to guess usernames and passwords.
-5. Is the login page is in the HTTPS? What if the attacker trys to  inject a keylogger?
-6. Is the credentials sent over HTTPS? made in the middle ?
+5. Are the login page is in the HTTPS? What if the attacker tries to  inject a keylogger?
+6. Is the credentials sent over HTTPS? Man in the middle ?
 
 
 Stay tuned for more topics to come;  Is JS really the best programming language?Tech and Linkedin what are the benefits? Can your current background make you a better or worse developer?
