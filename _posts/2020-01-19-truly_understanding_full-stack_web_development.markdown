@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Truly understanding full-stack web development"
-date:       2020-01-20 04:45:02 +0000
+date:       2020-01-19 23:45:03 -0500
 permalink:  truly_understanding_full-stack_web_development
 ---
 
