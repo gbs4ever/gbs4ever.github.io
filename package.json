@@ -5,7 +5,7 @@
     "homepage": "http://simchagreenbaum.com",
     "author": "Start Bootstrap/sim greenbaum",
     "devDependencies": {
-        "debug": "2.6.9" ,
+        "debug": "3.1.0" ,
         "qs": "^6.0.4",
         "grunt": "~1.4.1",
         "grunt-banner": "~0.6.0",
