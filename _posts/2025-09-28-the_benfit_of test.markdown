@@ -1,10 +1,14 @@
-# Why Validating Sidekiq Cron Jobs Is Crucial
+---
+layout: post
+title:   "Why Validating Sidekiq Cron Jobs Is Crucial"
+---
+
 
 When building applications that rely on background processing, scheduled tasks are a cornerstone for automation. In our Rails project, we use **Sidekiq-Cron** to handle recurring jobs. These jobs are scheduled with cron strings, which define exactly when each task should run.  
 
 Recently, we ran into a subtle but frustrating issue: a small misformatting in one of our cron strings caused a `TemuInventoryWorker` job to fail. The error wasn’t immediately obvious and could have led to missed tasks in production:
 
-```json
+```ruby
 {
   "TemuInventoryWorker": [
     "'cron' -> \" */1 * * *\" -> ArgumentError: not cron or 'natural' cron string: \" */1 * * *\""
@@ -33,7 +37,8 @@ This clearly shows which job failed and why, so developers can fix the cron stri
 It saves hours of debugging in production and ensures your scheduled tasks run reliably.
 
  ```ruby
-  Failure/Error: expect(Fugit::Cron.parse(cron)).not_to(be_nil, "Invalid cron for #{job_name}: #{cron}")
+Failure/Error: expect(Fugit::Cron.parse(cron)).not_to(be_nil, 
+"Invalid cron for #{job_name}: #{cron}")
        Invalid cron for InventoryWorker:  */1 * * *
 ```
 
