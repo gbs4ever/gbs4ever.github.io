@@ -5,12 +5,12 @@
     "homepage": "http://simchagreenbaum.com",
     "author": "Start Bootstrap/sim greenbaum",
     "devDependencies": {
-        "debug": "3.2.7",
-        "grunt": "~1.4.1",
+        "debug": "4.4.3",
+        "grunt": "~1.6.1",
         "grunt-banner": "~0.6.0",
         "grunt-contrib-less": "~3.0.0",
-        "grunt-contrib-uglify": "~5.0.0",
-        "grunt-contrib-watch": "~1.0.0",
+        "grunt-contrib-uglify": "~5.2.2",
+        "grunt-contrib-watch": "~1.1.0",
         "qs": "^6.0.4"
     },
     "repository": {
